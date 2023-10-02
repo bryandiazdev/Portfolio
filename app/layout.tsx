@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 		template: "Bryan Diaz",
 	},
 	description: "Software Engineer",
-	opengraph: {
+	openGraph: {
 		title: "Bryan Diaz",
 		description:
 			"Software Engineer",
