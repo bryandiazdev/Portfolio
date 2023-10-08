@@ -7,6 +7,7 @@ import { Article } from "./article";
 import { Eye } from "lucide-react";
 import nsd from '../../public/nsd.png'
 import aba from '../../public/aba.png'
+import cryptodash from '../../public/cryptodash.png';
 import Image from "next/image";
 export const revalidate = 60;
 export default async function ProjectsPage() {
@@ -23,6 +24,12 @@ export default async function ProjectsPage() {
 			description: 'Developed the entirety of this project on the side which includes AI with Next.js and TailwindCSS, Supabase, Stripe implementation, and more.',
 			href: 'https://www.abatoolset.com/',
 			src: aba
+		},
+		{
+			title: 'Crypto Dash',
+			description: 'Developed a simple Dashboard that displays real-time crypto data and relevant trading data, using, React.js, websockets, and the Coinbase API.',
+			href: 'https://crypto-dash-app.vercel.app/',
+			src: cryptodash
 		}
 	]
 

@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 		title: "Bryan Diaz",
 		description:
 			"Software Engineer",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+		url: "https://bryandiaz-portolio-site.vercel.app/",
+		siteName: "Bryan Diaz",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "/laptop.jpeg",
 				width: 1920,
 				height: 1080,
 			},
