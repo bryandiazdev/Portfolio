@@ -6,7 +6,7 @@ import { Card } from "../components/card";
 import { Article } from "./article";
 import { Eye } from "lucide-react";
 import nsd from '../../public/nsd.png'
-import aba from '../../public/aba.png'
+import aba from '../../public/541.png'
 import cryptodash from '../../public/cryptodash.png';
 import Image from "next/image";
 export const revalidate = 60;
@@ -20,9 +20,9 @@ export default async function ProjectsPage() {
 			src: nsd
 		},
 		{
-			title: 'ABA Toolset',
-			description: 'Developed the entirety of this project on the side which includes AI with Next.js and TailwindCSS, Supabase, Stripe implementation, and more.',
-			href: 'https://www.abatoolset.com/',
+			title: '541 Tonics',
+			description: 'Developed this simple ecommerce landing page for my friend utilizing React.js, AWS, and more.',
+			href: 'https://www.541tonics.com/',
 			src: aba
 		},
 		{
