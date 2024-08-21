@@ -1,13 +1,13 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://www.linkedin.com/in/bryan-diaz-816a081b9/",
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/bryan-diaz-522bb3323/",
 		label: "LinkedIn",
 		handle: "Bryan Diaz",
 	},
