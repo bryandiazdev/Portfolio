@@ -9,6 +9,7 @@ import nsd from '../../public/nsd.png'
 import aba from '../../public/541.png'
 import cfr from '../../public/cfr.png'
 import cryptodash from '../../public/cryptodash.png';
+import atn from '../../public/ai-therapy-notes.png'
 import Image from "next/image";
 export const revalidate = 60;
 export default async function ProjectsPage() {
@@ -25,6 +26,12 @@ export default async function ProjectsPage() {
 			description: 'Led the Frontend development of this software. Technologies include React, MUI, Node.js, Playwright, Hotjar, AWS, and more.',
 			href: 'https://cryptofaxreport.com',
 			src: cfr
+		},
+		{
+			title: 'AI Therapy Notes',
+			description: 'Co-Founder of this Software/Business, I have developed a platform in Next.js that is evolving for different kinds of therapists.',
+			href: 'https://ai-therapynotes-git-main-ai-therapy-notes.vercel.app/',
+			src: atn
 		},
 		{
 			title: '541 Tonics',
