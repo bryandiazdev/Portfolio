@@ -7,6 +7,7 @@ import { Article } from "./article";
 import { Eye } from "lucide-react";
 import nsd from '../../public/nsd.png'
 import aba from '../../public/541.png'
+import cfr from '../../public/cfr.png'
 import cryptodash from '../../public/cryptodash.png';
 import Image from "next/image";
 export const revalidate = 60;
@@ -20,16 +21,16 @@ export default async function ProjectsPage() {
 			src: nsd
 		},
 		{
+			title: 'CryptoFaxReport',
+			description: 'Led the Frontend development of this software. Technologies include React, MUI, Node.js, Playwright, Hotjar, AWS, and more.',
+			href: 'https://cryptofaxreport.com',
+			src: cfr
+		},
+		{
 			title: '541 Tonics',
 			description: 'Developed this simple ecommerce landing page for my friend utilizing React.js, AWS, and more.',
 			href: 'https://www.541tonics.com/',
 			src: aba
-		},
-		{
-			title: 'Crypto Dash',
-			description: 'Developed a simple Dashboard that displays real-time crypto data and relevant trading data, using, React.js, websockets, and the Coinbase API.',
-			href: 'https://crypto-dash-app.vercel.app/',
-			src: cryptodash
 		}
 	]
 
