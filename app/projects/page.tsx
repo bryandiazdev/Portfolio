@@ -8,6 +8,7 @@ import { Eye } from "lucide-react";
 import nsd from '../../public/nsd.png'
 import aba from '../../public/541.png'
 import cfr from '../../public/cfr.png'
+import workout from '../../public/workout.png'
 import cryptodash from '../../public/cryptodash.png';
 import atn from '../../public/ai-therapy-notes.png'
 import Image from "next/image";
@@ -30,8 +31,14 @@ export default async function ProjectsPage() {
 		{
 			title: 'AI Therapy Notes',
 			description: 'Co-Founder of this Software/Business, I have developed a platform in Next.js that is evolving for different kinds of therapists.',
-			href: 'https://ai-therapynotes-git-main-ai-therapy-notes.vercel.app/',
+			href: 'https://aitherapynotes.app',
 			src: atn
+		},
+		{
+			title: 'WorkoutTracker',
+			description: 'Created this portfolio piece in about 2 days using Vue.js, ASP.NET Core, C#, MongoDB, Auth0, and deployed via vercel.',
+			href: 'https://workout-tracker-rose.vercel.app/',
+			src: workout
 		},
 		{
 			title: '541 Tonics',
