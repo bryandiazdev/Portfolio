@@ -11,6 +11,7 @@ import cfr from '../../public/cfr.png'
 import workout from '../../public/workout.png'
 import cryptodash from '../../public/cryptodash.png';
 import atn from '../../public/ai-therapy-notes.png'
+import tradeground from '../../public/tradeground.png'
 import Image from "next/image";
 export const revalidate = 60;
 export default async function ProjectsPage() {
@@ -31,7 +32,7 @@ export default async function ProjectsPage() {
 		{
 			title: 'AI Therapy Notes',
 			description: 'Co-Founder of this Software/Business, I have developed a platform in Next.js that is evolving for different kinds of therapists.',
-			href: 'https://aitherapynotes.app',
+			href: 'https://ai-therapynotes.vercel.app/',
 			src: atn
 		},
 		{
@@ -41,10 +42,10 @@ export default async function ProjectsPage() {
 			src: workout
 		},
 		{
-			title: '541 Tonics',
-			description: 'Developed this simple ecommerce landing page for my friend utilizing React.js, AWS, and more.',
-			href: 'https://www.541tonics.com/',
-			src: aba
+			title: 'Tradeground',
+			description: 'A Next.js web application where users can trade "play-money" to test their trading skills.',
+			href: 'https://tradeground.vercel.app/dashboard',
+			src: tradeground
 		}
 	]
 
