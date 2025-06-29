@@ -12,17 +12,12 @@ import workout from '../../public/workout.png'
 import cryptodash from '../../public/cryptodash.png';
 import atn from '../../public/ai-therapy-notes.png'
 import tradeground from '../../public/tradeground.png'
+import sigtakeoffs from '../../public/sigtakeoffs.png'
 import Image from "next/image";
 export const revalidate = 60;
 export default async function ProjectsPage() {
 
 	const projects = [
-		{
-			title: 'Nation Safe Drivers',
-			description: 'Developed essentially the homefront website of Nation Safe Drivers in 6 months using React, MUI, Node.js, SQL, and Azure.',
-			href: 'https://nationsafedrivers.com/',
-			src: nsd
-		},
 		{
 			title: 'CryptoFaxReport',
 			description: 'Led the Frontend development of this software. Technologies include React, MUI, Node.js, Playwright, Hotjar, AWS, and more.',
@@ -36,16 +31,10 @@ export default async function ProjectsPage() {
 			src: atn
 		},
 		{
-			title: 'WorkoutTracker',
-			description: 'Created this portfolio piece in about 2 days using Vue.js, ASP.NET Core, C#, MongoDB, Auth0, and deployed via vercel.',
-			href: 'https://workout-tracker-rose.vercel.app/',
-			src: workout
-		},
-		{
-			title: 'Tradeground',
-			description: 'A Next.js web application where users can trade "play-money" to test their trading skills.',
-			href: 'https://tradeground.vercel.app/dashboard',
-			src: tradeground
+			title: 'Signature Takeoffs',
+			description: 'A full-fledged construction takeoff generation software that utilizes AI to read floorplans and generate takeoffs. Built in Next.js.',
+			href: 'https://signature-takeoffs.vercel.app/',
+			src: sigtakeoffs
 		}
 	]
 
