@@ -13,6 +13,8 @@ import cryptodash from '../../public/cryptodash.png';
 import atn from '../../public/ai-therapy-notes.png'
 import tradeground from '../../public/tradeground.png'
 import sigtakeoffs from '../../public/sigtakeoffs.png'
+import deliverEdits from '../../public/deliveredits.png'
+import dubTrades from '../../public/dubtrades.png'
 import Image from "next/image";
 export const revalidate = 60;
 export default async function ProjectsPage() {
@@ -25,16 +27,22 @@ export default async function ProjectsPage() {
 			src: cfr
 		},
 		{
-			title: 'AI Therapy Notes',
-			description: 'Co-Founder of this Software/Business, I have developed a platform in Next.js that is evolving for different kinds of therapists.',
-			href: 'https://ai-therapynotes.vercel.app/',
-			src: atn
-		},
-		{
 			title: 'Signature Takeoffs',
 			description: 'A full-fledged construction takeoff generation software that utilizes AI to read floorplans and generate takeoffs. Built in Next.js.',
 			href: 'https://signature-takeoffs.vercel.app/',
 			src: sigtakeoffs
+		},
+		{
+			title: 'Deliver Edits',
+			description: 'A project still in development, this is a platform that allows users to upload their videos and get them edited by a professional team.',
+			href: 'https://deliver-edits.vercel.app/',
+			src: deliverEdits
+		},
+		{
+			title: 'Dub Trades',
+			description: 'Still in development, this is a platform that allows users to practice crypto trading with a virtual account.',
+			href: 'https://dub-trades.vercel.app/',
+			src: dubTrades
 		}
 	]
 
